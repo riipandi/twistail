@@ -59,20 +59,19 @@ const DrawerContent = React.forwardRef<
   const styles = drawerStyles({ side })
   return (
     <DrawerPortal>
-      <DrawerOverlay>
-        <DrawerPrimitive.Content
-          ref={forwardedRef}
-          className={styles.content({ className })}
-          {...props}
-        >
-          {children}
-          <DrawerPrimitive.Close asChild>
-            <Button variant="ghost" className={styles.closeButton()} size="sm">
-              <Lucide.X className={styles.closeIcon()} aria-hidden="true" strokeWidth={2} />
-            </Button>
-          </DrawerPrimitive.Close>
-        </DrawerPrimitive.Content>
-      </DrawerOverlay>
+      <DrawerOverlay />
+      <DrawerPrimitive.Content
+        ref={forwardedRef}
+        className={styles.content({ className })}
+        {...props}
+      >
+        {children}
+        <DrawerPrimitive.Close asChild>
+          <Button variant="ghost" className={styles.closeButton()} size="sm">
+            <Lucide.X className={styles.closeIcon()} aria-hidden="true" strokeWidth={2} />
+          </Button>
+        </DrawerPrimitive.Close>
+      </DrawerPrimitive.Content>
     </DrawerPortal>
   )
 })

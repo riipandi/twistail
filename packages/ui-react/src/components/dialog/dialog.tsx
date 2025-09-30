@@ -32,13 +32,12 @@ const DialogContent = React.forwardRef<
   const styles = dialogStyles({ spacing })
   return (
     <DialogPortal>
-      <DialogOverlay>
-        <DialogPrimitive.Content
-          ref={forwardedRef}
-          className={styles.content({ className })}
-          {...props}
-        />
-      </DialogOverlay>
+      <DialogOverlay />
+      <DialogPrimitive.Content
+        ref={forwardedRef}
+        className={styles.content({ className })}
+        {...props}
+      />
     </DialogPortal>
   )
 })

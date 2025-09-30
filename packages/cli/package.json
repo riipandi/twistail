@@ -43,14 +43,14 @@
         "make-dir": "^5.0.0",
         "node-jq": "^6.0.1",
         "pathe": "^2.0.3",
-        "std-env": "^3.8.1"
+        "std-env": "^3.9.0"
     },
     "devDependencies": {
         "@biomejs/biome": "catalog:",
         "@repo/config-typescript": "workspace:*",
-        "@types/node": "^22.13.14",
-        "@types/react": "^19.0.12",
-        "rollup": "^4.38.0",
+        "@types/node": "^22.14.1",
+        "@types/react": "^19.1.1",
+        "rollup": "^4.40.0",
         "typescript": "catalog:",
         "unbuild": "^3.5.0",
         "unplugin-purge-polyfills": "^0.0.7"

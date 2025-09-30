@@ -53,13 +53,13 @@
     },
     "dependencies": {
         "clsx": "^2.1.1",
-        "tailwind-merge": "^3.0.2",
+        "tailwind-merge": "^3.2.0",
         "tailwind-variants": "^1.0.0"
     },
     "devDependencies": {
         "@biomejs/biome": "catalog:",
         "@repo/config-typescript": "workspace:*",
-        "@types/react": "^19.0.12",
+        "@types/react": "^19.1.1",
         "pathe": "^2.0.3",
         "typescript": "catalog:",
         "unbuild": "^3.5.0"

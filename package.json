@@ -21,10 +21,10 @@
     },
     "devDependencies": {
         "@biomejs/biome": "catalog:",
-        "npm-check-updates": "^17.1.16",
-        "turbo": "^2.4.4"
+        "npm-check-updates": "^17.1.18",
+        "turbo": "^2.5.0"
     },
-    "packageManager": "pnpm@10.7.0",
+    "packageManager": "pnpm@10.8.0",
     "pnpm": {
         "onlyBuiltDependencies": ["@biomejs/biome", "@parcel/watcher", "esbuild", "sharp"]
     }
