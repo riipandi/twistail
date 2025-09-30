@@ -120,7 +120,6 @@ const LINKS: LinkGroup[] = [
     icon: Lucide.GitPullRequest,
     items: [
       ['Contributing Guidelines', '/docs/contributing-guidelines'],
-      ['Code of Conduct', '/docs/code-of-conduct'],
       ['Contributors', '/docs/contributors'],
     ],
   },

@@ -15,7 +15,6 @@ export async function GET() {
   const files = await fg.glob(
     [
       '**/*.mdx',
-      '!code-of-conduct.mdx',
       '!contributing-guidelines.mdx',
       '!contributors.mdx',
       '!llms.mdx',

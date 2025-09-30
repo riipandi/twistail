@@ -12,7 +12,7 @@ export default async function Page(props: {
   if (!page) notFound()
 
   // Hide title and description for pages that don't need them
-  const pageWithoutTitle = ['code-of-conduct']
+  const pageWithoutTitle: string[] = []
 
   const MDX = page.data.body
   const lastUpdate = page.data.lastModified
